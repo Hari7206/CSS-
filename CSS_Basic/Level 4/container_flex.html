@@ -1,0 +1,61 @@
+<!-- in this we are learn about the differernt thigs of the item which is useable for the container
+ there is a different type of the flex property 
+ like 
+ justify content = for the use of the align item from the main
+ align item = it is used to align the item from the center
+ flex  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cotainer item</title>
+    <style>
+         #container {
+          border: 2px solid black;
+    height: 500px;
+    width: 500px;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /*  we also  have a property flex flow which is a shorthand of flex direction and the wrap */
+     /* align-items: stretch; */
+  
+
+  }
+   div {
+    /* height: 100px; */
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    /* display: inline-block; */
+    /* align-content: center; */
+    align-content: center;
+  }
+  .one{
+    height: 300px;
+   
+  }
+  .four{
+    height: 20px;
+  }
+    </style>
+</head>
+<body>
+    <h1>
+        Flex-direction
+      </h1>
+        <div id="container">
+          <div class="one" style="background-color: blue;"></div>
+          <div class="two" style="background-color: red;"> </div>
+          <div class="three" style="background-color: pink;"></div>
+          <div class="four" style="background-color: yellow;"></div>
+          <div class="five" style="background-color: brown;"></div>
+          <div class="six" style="background-color: greenyellow;"></div>
+    
+        </div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;  
+    /*  as we learn this is a universal element it is gonna use in the full page of our site */
+    body{
+        background-color: antiquewhite;
+    }
+}
+
+.red {
+       background-color: cadetblue;
+       /* so by this we can see we can set the backgroun color in any text  */
+       color: black;
+       /*  by this element we can use the color  in the any text */
+
+
+       /*  here are some more element for the code */
+       height: 100px;
+       /*  it measn that we can set the height of the our any html element in the css  */
+}
+
+.blue {
+    background-color: darkgray;
+    color: blue;
+    height: 200px;
+}
+/*  lets learn more about the color and that element there are three type of color element in the css  */
+.sky{
+    background-color: rgba(77, 12, 199, 0.788);
+    height: 200px;
+    /*  so here we can see that we use the rgba element which means red green blue and the a is goes for alpha there is a two line when we hover in the color the right line is use for the color change 
+    and the left one is use for the opacithy of the color the lowest value of the alpha is the zerp */
+}
+
+/*  There is a three types of the color element we can learn that by notes
+The main topic are 
+the three type is 1 rgb ,     2 hfx     ,     3 HSL
+the rgb is the normal type we use the color which means red green  blue
+the other hfx is a used by the type #ff3445  in this the first two ff means for the red color and the second 34 means for the green use of color and the third one is use for the 45 for the
+blue . this all means how much percent of the number color which we use in the color 
+
+HSL - this is the hue saturation and the lighness of the color which is written as the ( 32 , 43 , 32)
+we can use the color alpha also as i write in the upper code 
+*/

@@ -1,0 +1,67 @@
+<!-- so in this lesson we learn what is all the css selector and how many types of the selector and   how to add the each type of the selector -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <style>
+/*  we can aslo use the universal selector in the css by using the property of the *in the slector and the using curly braces with it . it become the universal selector means 
+ it will be used in the whole css     for eg - 
+ * {
+ } 
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+/*   as we see that our whole code margin and padding is change to zero now    */
+
+
+/*  first our body selector  we call it the element selector cuz we did not give it any id or class direct slect the element */
+
+body  {
+    background-color: antiquewhite;
+    
+}
+
+/*  then our id selector we select the id in this by the help of the giving the # to it  */
+#id {
+    background-color: blueviolet;
+}
+
+/*  now we are going to add the class slector in this we add the class by the help of giving the fullstop to anyelement class naame  */
+.class , h2 {
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+/*  so we can make a group of code selector in the css like in the upper case i made the group of the .class  and the h2  */
+ </style>
+ <body>
+    <!--  by adding the body we learn how to add the element selector -->
+
+    <h1>
+        This is about the selector 
+    </h1>
+
+    <div id="id"> 
+        <p> this is about thee id selector</p>
+    </div>
+
+    <div class="class">
+        <p>
+            this is about the how to select the classs
+        </p>
+    </div>
+
+    <h2>  SO this is the end of our lesson first in the css </h2>
+ </body>
+ </html>
+
+
+
+ <!--  Importabnt note that we have to know that in css the inline css is has the top priority then the our slect tag has 2nd priority and the link:css has the 3rd rank property 
+   measn if we apply the same code with differnt element in the same element then the our inline code will be accepted by the css  -->

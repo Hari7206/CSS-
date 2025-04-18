@@ -1,0 +1,63 @@
+<!-- In this we learn about the unit of the relative property of the unit 
+ as we learn in our previous chapter about the absoulate property so here also we learn the relative property
+ so relative property can be different for any element . 
+ the three major element of the relative units are 
+ %
+ em 
+ rem
+  -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relative Tag</title>
+   <style>
+    html {
+        font-size: 80px;
+    }
+    body{
+        font-size: 80px;
+    }
+    .parent{
+        background-color: aqua;
+        height: 100px;
+        width: 100px;
+        font-size: 20px;
+    }
+    .child{
+        background-color: burlywood;
+
+        height: 50px;
+        width: 7rem;
+        font-size: 3em;
+        /* so this is how its works it set the width of its according to the 50% of its parent tag */
+
+    }
+   </style>
+ </head>
+ <body>
+    Hello Wordl!
+    <div class="parent">
+        parent
+        <div class="child"> 
+            Child
+        </div>
+    </div>
+    <!-- some rule of em 
+      its when we say our em is 1 then it means its multiply by the pixel of the parent like 
+      like if parent tag have pixel of 20px
+      and we give the em to the 3 so its pixel will be 60px  and in font it goes for the parent tag and for
+      other element like the width its goes for itself font element pixel 
+      
+      also for the width like property 
+      if our font size is 60 pixek so our width multiply by its element if we give the 2em  width so our width will be 120pixel -->
+
+      <!-- no we gonna learn about the rem or we can call it the root em its fix our value with the help of the root tag of our tag font size 
+       like if our root tag font size is 80px 
+
+       and our rem is 7rem so our rem px is 560px -->
+       <!-- one more element we have the vh and vw its means that our vh means the viewport height and the vw means the view port width 
+        we can also call the veiwport as the browser cause it work by the browser height and width  -->
+ </body>
+ </html>
