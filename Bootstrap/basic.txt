@@ -1,0 +1,3 @@
+first we have to see the all type of break point in this in layout
+-- we dont have the prefix in the extra small for mobile 
+-- most normal grid is 1 in the mobile ph and 2 in the tab and 4 in the desktop 
