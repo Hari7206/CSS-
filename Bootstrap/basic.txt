@@ -6,3 +6,4 @@ first we have to see the all type of break point in this in layout
 1 rem = 16 px and bootstrap work on the full rem project base  and m3
   is equal to the 1 rem and m1 is  equal to the 0.25 rem 
   -- we have the 6 type of m that we can use for the margin and same as the padding also we have ms for the left and me for the right and also we have the margin auto for the set the auto margin  and also use the screen orientd margin for the tags like we can use the mt-lg-5 as this we can choose by the screen only that how much we want 
+  -- too align the item of the row we can use the justify content for the raw and use the align item for the height and width of the raw 
